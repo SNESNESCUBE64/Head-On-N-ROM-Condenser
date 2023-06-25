@@ -1,5 +1,5 @@
 # Head-On-N-ROM-Condenser
-ROM Consenser PCB to convert 8 2708 Tri-Voltage ROMs to a single 2764
+ROM Consenser PCB to convert 8 2708 Tri-Voltage ROMs to a single 2764. It works by taking all the chip selects and encoding them to binary using a 74LS148, which also provides the new chip select. This was tested working on a deconverted Head On N PCB.
 ## BOM
 - 1: 74LS148
 - 1: 2764 EPROM
